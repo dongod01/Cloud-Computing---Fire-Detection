@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fire Detection App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h5 class="card-title">Result</h5>
+              <p class="card-text">
+                {% if result == "Fire" %}
+                The image is Fire.
+                {% elif result == "Non-Fire" %}
+                The image is Non-Fire.
+                {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
