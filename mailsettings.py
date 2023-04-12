@@ -1,0 +1,9 @@
+DEBUG = True
+MAIL_SERVER='smtp.gmail.com'
+MAIL_PORT = 465
+MAIL_USERNAME = 'firedetect.kgp@gmail.com'
+# MAIL_PASSWORD = '^^kgp^^1'
+MAIL_PASSWORD = 'jxdyzrbhpdhkxury'
+MAIL_USE_TLS = False
+MAIL_USE_SSL = True
+MAIL_ASCII_ATTACHMENTS = True
