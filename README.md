@@ -6,16 +6,19 @@ tags:
   - flask
 ---
 
-# Python Flask Example
+# Fire Detection Project
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that can take any image and detect the presence of fire, if found. The app sends an email notification to a predefined set of users corresponding to the detection of fire.
+The app is deployed at https://fire-detection.up.railway.app/
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+Inspired by the paper: 'FireNet: A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications' (available at  https://arxiv.org/abs/1905.11922)
+
 
 ## ✨ Features
 
 - Python
 - Flask
+- Keras
 
 ## 💁‍♀️ How to use
 
