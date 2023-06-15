@@ -10,6 +10,7 @@ tags:
 
 This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that can take any image and detect the presence of fire, if found. The app sends an email notification to a predefined set of users corresponding to the detection of fire.
 The app is deployed at https://fire-detection.up.railway.app/
+(Down currently)
 
 Inspired by the paper: 'FireNet: A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications' (available at  https://arxiv.org/abs/1905.11922)
 
